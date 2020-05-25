@@ -1,1 +1,88 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="main.css" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+</head>
+
+<body class="mdc-typography">
+    <div class="mdc-layout-grid">
+        <h1 class="mdc-typography--headline1">Sonlandia</h1>
+        <h3 class="mdc-typography--headline3">Connecting to the Server</h3>
+
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-4-phone">
+                First, send us your XBox Gamertag and we'll add you to the server.  Once you have been added, follow these steps to connect :
+            </div>
+        </div>
+
+        <div class="mdc-layout-grid__inner instruction-step">
+            <div class="mdc-layout-grid__cell--span-4-desktop">
+              Sign in to your XBox Account
+            </div>
+            <div class="mdc-layout-grid__cell--span-8-desktop">
+              <img src="images/SignIn.jpg" alt="Sign In" class="screenshot" />
+            </div>
+        </div>
+
+        <div class="mdc-layout-grid__inner instruction-step">
+            <div class="mdc-layout-grid__cell--span-4-desktop">
+                Click the Play button
+            </div>
+            <div class="mdc-layout-grid__cell--span-8-desktop">
+                    <img src="images/Play.jpg" alt="Click Play" class="screenshot" />
+            </div>
+        </div>
+
+        <div class="mdc-layout-grid__inner instruction-step">
+            <div class="mdc-layout-grid__cell--span-4-desktop">
+                Click the Servers tab.
+                <ul>
+                    <li>
+                        <strong>Note :</strong> If you see a message about not being able to join servers or realms because of the way your account is set up, you may need to <a href="https://help.minecraft.net/hc/en-us/articles/360042221252-I-m-Getting-an-Error-When-Trying-to-Play-Realms-with-a-Child-Account">adjust your account privacy settings</a>.
+                    </li>
+                </ul>
+            </div>
+            <div class="mdc-layout-grid__cell--span-8-desktop">
+                <img src="images/Servers.jpg" alt="Servers tab" class="screenshot" />
+            </div>
+        </div>
+
+        <div class="mdc-layout-grid__inner instruction-step">
+            <div class="mdc-layout-grid__cell--span-4-desktop">
+                Click the Add Server button
+            </div>
+            <div class="mdc-layout-grid__cell--span-8-desktop">
+                <img src="images/AddServer.jpg" alt="Add Server" class="screenshot" />
+            </div>
+        </div>
+
+        <div class="mdc-layout-grid__inner instruction-step">
+            <div class="mdc-layout-grid__cell--span-4-desktop">
+                Enter the server details then click the Save button
+                <ul>
+                    <li><strong>Server Name :</strong> sonlandia (you can actually use any name you want)</li>
+                    <li><strong>Server Address :</strong> 34.224.44.86</li>
+                    <li><strong>Port :</strong> 19132</li>
+                </ul>
+            </div>
+            <div class="mdc-layout-grid__cell--span-8-desktop">
+                <img src="images/ServerInfo.jpg" alt="Server info" class="screenshot" />
+            </div>
+        </div>
+
+        <div class="mdc-layout-grid__inner instruction-step">
+            <div class="mdc-layout-grid__cell--span-4-desktop">
+                Back on the Servers tab, scroll to the bottom and you should see the new server.  Tap the server button to connect.
+            </div>
+            <div class="mdc-layout-grid__cell--span-8-desktop">
+                <img src="images/JoinServer.jpg" alt="Join Server" class="screenshot" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
